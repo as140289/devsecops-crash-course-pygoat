@@ -31,7 +31,8 @@ jobs:
 
  image_scan:
    name: Build Image and Run Image Scan
-   runs-on: ubuntu-21.10
+   #runs-on: ubuntu-21.10
+   runs-on: ubuntu-latest
 
    steps:
    - name: Checkout code
